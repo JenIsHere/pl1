@@ -627,8 +627,6 @@ var locations = [
   function initialize() {
 
     var myOptions = {
-      center: new google.maps.LatLng(33.890542, 151.274856),
-      zoom: 8,
       mapTypeId: google.maps.MapTypeId.ROADMAP
 
     };
@@ -639,19 +637,13 @@ var locations = [
 
   }
 
-
-
   function setMarkers(map,locations){
-
       var marker, i
-
 for (i = 0; i < locations.length; i++)
  {  
-
- var loan = locations[i][0]
+ var mag = locations[i][0]
  var lat = locations[i][1]
  var long = locations[i][2]
- var add =  locations[i][3]
 
  latlngset = new google.maps.LatLng(lat, long);
 
@@ -661,7 +653,7 @@ for (i = 0; i < locations.length; i++)
         map.setCenter(marker.getPosition())
 
 
-        var content = "Loan Number: " + loan +  '</h3>' + "Address: " + add     
+        var content = "Magnitude: " + mag      
 
   var infowindow = new google.maps.InfoWindow()
 
