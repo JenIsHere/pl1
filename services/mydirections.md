@@ -9,7 +9,8 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://YourDirectionsApiURLGoesHere
+https://maps.googleapis.com/maps/api/directions/json?origin=Ahmedabad&destination=place_id%3AChIJH_I65FUdYDkRGOv2oQE84rg&region=in&waypoints=optimize:true%7Cplace_id%3AChIJywwxgjIdYDkRssixr9k3v5k%7Cplace_id%3AChIJE4YIzXceYDkRBIeyyNHiXbo%7Cplace_id%3AChIJvU6Cgh4dYDkRLg48wqX5wxg%7Cplace_id%3AChIJwS-Efn0fYDkR6QDcXkekrM4&departure_time=now&traffic_model=best_guess&mode=driving&units=metric&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+
 ```
 
 ## Next paste the full JSON response to this query here:
