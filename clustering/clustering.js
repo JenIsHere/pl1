@@ -21,6 +21,12 @@ function initMap() {
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 }
+const clusterOptions = {
+  imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+  gridSize: 30,
+  zoomOnClick: true,
+  maxZoom: 12,
+};
 const locations = [
 
 { lat: 49.758123, lng: -92.65349},
