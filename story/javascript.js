@@ -21,6 +21,7 @@ function initMap() {
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 }
+// Using https://cloud.google.com/blog/products/maps-platform/how-cluster-map-markers for reference to style the cluster //
 const clusterOptions = {
   imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   gridSize: 75,
