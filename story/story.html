@@ -12,7 +12,7 @@
     #map {
   height: 850px;
   width: 1000px;
-  margin: 0;
+  margin: auto;
 }
 
     html, body {
@@ -25,11 +25,17 @@
 }
     p {
       text-align:center;
+}
+    image {
+      blue: 50%;
+      max-width:100%;
+}
    </style>
   </head>
   <body>
-    <div class = "image" img src="quake.jpg" alt="Earthquakes"> 
+    <div class = "image"> 
     <h1> Earthquakes around the world in last month </h1>
+    <img src="quake.jpg" alt="Earthquakes">
     <h2> Showing all earthquakes over 4.5 Magnitude </h2>
     <div id="map"></div>
     <p> This map shows all the earthquakes that were recorded by USGS during last month, having magnitude greater than 4.5.<p>
