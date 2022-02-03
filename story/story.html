@@ -29,15 +29,17 @@
       font-family: Arial;
       color: White;
 }
-    #bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
+    .bg {
+  /* The image used */
+  background-image: url("img_girl.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
    </style>
   </head>
@@ -45,9 +47,7 @@
     <h1> Earthquakes around the world in last month </h1>
     <h2> Showing all earthquakes over 4.5 Magnitude </h2>
     <p> This map shows all the earthquakes that were recorded by USGS during last month, having magnitude greater than 4.5.<p>
-    <div id="bg">
-      <img src="quake.jpg" alt="Earthquake">
-    </div>
+    <div id="bg"></div>
     <div id="map"></div>
     <p> According to the data, around 584 earthquakes have been recorded since January 1st 2022, which are all clustered in the shown map. <p>
     <a href= "https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php"> Find the source data here!</a>
