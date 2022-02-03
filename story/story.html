@@ -28,13 +28,18 @@
     h1, h2 {
       text-align:center;
 }
+    p {
+      text-align:center;
    </style>
   </head>
   <body>
+    <div class = "image" img src="quake.jpg" alt="Earthquakes"> 
     <h1> Earthquakes around the world in last month </h1>
     <h2> Showing all earthquakes over 4.5 Magnitude </h2>
     <div id="map"></div>
-
+    <p> This map shows all the earthquakes that were recorded by USGS during last month, having magnitude greater than 4.5.<p>
+    <a href= "https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php"> Find the source data here!</a>
+    </div>
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly"
